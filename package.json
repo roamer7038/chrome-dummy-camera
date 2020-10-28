@@ -1,7 +1,7 @@
 {
-  "name": "chrome-dev-camera",
+  "name": "chrome-dummy-camera",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "A dummy camera extension for Developers",
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",

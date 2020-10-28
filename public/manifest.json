@@ -1,36 +1,27 @@
 {
   "manifest_version": 2,
-  "name": "Chrome Dev-camera",
+  "name": "Dummy Camera",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "A dummy camera extension for Developers",
   "icons": {
     "16": "icons/icon_16.png",
     "32": "icons/icon_32.png",
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
-  },
-  "browser_action": {
-    "default_title": "Chrome Dev-camera",
-    "default_popup": "popup.html"
-  },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
         "<all_urls>"
       ],
-      "run_at": "document_idle",
+      "run_at": "document_end",
       "js": [
-        "contentScript.js"
+        "loader.js"
       ]
     }
+  ],
+  "web_accessible_resources": [
+    "cs.js"
   ]
 }

@@ -1,11 +1,10 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Chrome Dev Camera
+# <img src="public/icons/icon_48.png" width="45" align="left"> Chrome Dummy Camera
 
-My Chrome Extension
+A dummy camera chrome extension for Developers
 
 ## Features
 
-- Feature 1
-- Feature 2
+- Replace `navigator.mediaDevices.getUserMedia()` with a dummy animation.
 
 ## Install
 
@@ -15,3 +14,6 @@ My Chrome Extension
 
 Suggestions and pull requests are welcomed!.
 
+## LICENSE
+
+[MIT](./LICENSE)
